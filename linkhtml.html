@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify-clone web player:music for everyone </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+
+</head>
+
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="close">
+                <img width="30" class="invert" src="img/cross.svg" alt="">
+            </div>
+            <div class="home bg-grey m-1 rounded p-1">
+                <div class="logo"><img width=40 class="invert" src="img/logo.svg" alt="logo">
+                    <ul>
+                        <li><img class="invert" src="img/home.svg" alt="home">home </li>
+                        <li><img class="invert" src="img/search.svg" alt="search">search </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+
+                    <img class="invert" src="img/playlist.svg" alt="playlist">
+                    <h2>
+
+                        your library
+                    </h2>
+                </div>
+                <div class="songlist">
+
+                    <ul>
+
+                    </ul>
+                </div>
+
+                <div class="footer">
+                    <div>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                            <span>Safety & Privacy Center</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/">
+                            <span>Privacy Policy</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+                            <span>Cookies</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+                            <span>About Ads</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/accessibility/">
+                            <span>Accessibility</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right bg-grey rounded">
+            <div class="header">
+                <div class="nav">
+                    <div class="hamburgercontainer">
+
+                        <img width=40 class="hamburger invert" src="img/hamburger.svg" alt="menu">
+                        <ul>
+                            <li><img src="img/left.svg" alt="left"></li>
+                            <li><img src="img/right.svg" alt="right"></li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">signup</button>
+                    <button class="loginbtn">log in</button>
+                </div>
+            </div>
+            <div class="spotify-playlists">
+                <h1>Spotify Playlists</h1>
+                <div class="cardcontainer">
+                    <div data-folder="ncs" class="card">
+                        <div class="play">
+                            <img src="img/play.svg" alt="Play">
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="Aashiqui 2">
+                        <h2>Aashiqui 2</h2>
+                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
+                    </div>
+
+                    <div data-folder="punjabi" class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02707ea5b8023ac77d31756ed4" alt="Arijit Hits">
+                        <div class="play">
+                            <img src="img/play.svg" alt="Play">
+                        </div>
+                        <h2>Arijit Hits</h2>
+                        <p>Arijit Singh Collection</p>
+                    </div>
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="abovebar">
+
+                        <div class="songinfo">
+
+                        </div>
+                        <div class="songbtns">
+                            <img width="35" id="previous" src="img/prevbtn.svg" alt="">
+                            <img  width="35" id="play" src="img/pause.svg" alt="">
+                            <img  width="35" id="next" src="img/nextbtn.svg" alt="">
+                        </div>
+                        <div class="timevol">
+
+                            <div class="songtime">
+                                
+                                
+                            </div>
+                            <div class="volume">
+                                <img src="img/volume.svg" alt="">
+                                
+                                <div class="range">
+                                    <input type="range" name="volume" id="volume" min="0" max="100" value="50">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/first.js"></script>
+</body>
+
+</html>
